@@ -1,3 +1,3 @@
 #!/bin/sh
-cp index.html ../gh-pages
+cp *.html ../gh-pages
 cp ../../contempworks/generated/*.html ../gh-pages/contempworks
