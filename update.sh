@@ -1,8 +1,7 @@
 #!/bin/sh
-#cp *.html ../gh-pages
 git checkout master
 git pull
-cp ../../contempworks/generated/*.html contempworks
+cp ../contempworks/generated/*.html contempworks
 git add -A
 git commit
 git push
